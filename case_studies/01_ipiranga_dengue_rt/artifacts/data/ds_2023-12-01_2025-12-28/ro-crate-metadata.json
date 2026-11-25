@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.2/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2026-11-25T18:41:00.472425+00:00",
+            "description": "Dengue data from Mosqlimate / InfoDengue for 2023 in Parana, Brazil",
+            "hasPart": [
+                {
+                    "@id": "data.parquet"
+                }
+            ],
+            "name": "infodengue_dengue_4110508_2023-12-01_2025-12-28",
+            "spatialCoverage": "Parana, Brazil",
+            "wasDerivedFrom": {
+                "@id": "#Mosqlimate"
+            }
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.2"
+            }
+        },
+        {
+            "@id": "#Mosqlimate",
+            "@type": "Dataset",
+            "name": "Mosqlimate"
+        },
+        {
+            "@id": "data.parquet",
+            "@type": "File",
+            "additionalProperty": [
+                {
+                    "@id": "#row_count"
+                }
+            ],
+            "contentSize": "27834",
+            "encodingFormat": "application/vnd.apache.parquet",
+            "name": "infodengue_dengue_4110508_2023-12-01_2025-12-28 (Parquet)",
+            "schema": {
+                "@id": "#schema"
+            }
+        },
+        {
+            "@id": "#schema",
+            "@type": "PropertyValue",
+            "description": "data_iniSE: VARCHAR (nullable); SE: BIGINT (nullable); casos_est: DOUBLE (nullable); casos_est_min: BIGINT (nullable); casos_est_max: BIGINT (nullable); casos: BIGINT (nullable); municipio_geocodigo: BIGINT (nullable); p_rt1: DOUBLE (nullable); p_inc100k: DOUBLE (nullable); Localidade_id: BIGINT (nullable); nivel: BIGINT (nullable); id: BIGINT (nullable); versao_modelo: VARCHAR (nullable); Rt: DOUBLE (nullable); municipio_nome: VARCHAR (nullable); pop: DOUBLE (nullable); tempmin: DOUBLE (nullable); umidmax: DOUBLE (nullable); receptivo: BIGINT (nullable); transmissao: BIGINT (nullable); nivel_inc: BIGINT (nullable); umidmed: DOUBLE (nullable); umidmin: DOUBLE (nullable); tempmed: DOUBLE (nullable); tempmax: DOUBLE (nullable); casprov: BIGINT (nullable); casprov_est: INTEGER (nullable); casprov_est_min: INTEGER (nullable); casprov_est_max: INTEGER (nullable); casconf: INTEGER (nullable)",
+            "name": "column_schema"
+        },
+        {
+            "@id": "#field_sources",
+            "@type": "PropertyValue",
+            "name": "field_sources",
+            "spatial_coverage": "data_inferred"
+        }
+    ]
+}

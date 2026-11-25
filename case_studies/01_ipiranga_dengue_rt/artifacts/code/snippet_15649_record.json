@@ -1,0 +1,16 @@
+{
+  "recovered_from": "list_code_snippets() tool response",
+  "snippet_id": 15649,
+  "title": "Plot 2735",
+  "language": "python",
+  "created": "2026-11-25",
+  "used_count": 0,
+  "tags": null,
+  "listed_description": "Python analysis using pandas, matplotlib, scipy, numpy — generates figures, loads data",
+  "stored_source_retrievable": false,
+  "retrieval_attempts": [
+    "search_code_snippets(query='Plot 2735 Ipiranga Rt', language='python') -> no match",
+    "search_code_snippets(query='ipiranga') -> no match"
+  ],
+  "substitute_used": "artifacts/code/snippet_15649__plot_2735.py contains the generating code recorded inside plot 2735's own record, which is the same script that produced the archived PNG (plot description 'Plot 2735' matches snippet 15649's title and 2026-11-25 date)."
+}

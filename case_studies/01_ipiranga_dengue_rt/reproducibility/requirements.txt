@@ -1,0 +1,8 @@
+# dependencies for reproduce_rt.py
+# versions below are the ones resolved in the environment where the archive
+# was assembled; the original analysis ran inside the EpiDBot sandbox with
+# comparable versions.
+numpy
+pandas
+scipy
+matplotlib

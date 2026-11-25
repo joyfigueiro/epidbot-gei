@@ -1,0 +1,18 @@
+path,origin,bytes,sha256,source,mtime_utc
+README.md,NEW,10076,d104fc1308e1fdff1dfa002de259542f943322001f8fbe1ea637596d9326f41a,created for this repository,2026-11-25T19:16:45Z
+artifacts/code/snippet_15649__plot_2735.py,RECOVERED,4023,9113538bcb74ddadfad6760c38e9528b46279753a6609c63c2b6b01615fb7cca,/data/public/_ipiranga_rt_bundle/artifacts/code/snippet_15649__plot_2735.py,2026-11-25T18:53:34Z
+artifacts/code/snippet_15649_record.json,RECOVERED,799,6d17509a0d5eac52ac00c076f90712161034fd01d0416c8ec7246db0001df302,/data/public/_ipiranga_rt_bundle/artifacts/code/snippet_15649_record.json,2026-11-25T18:53:34Z
+artifacts/data/ds_2023-12-01_2025-12-28/data.parquet,RECOVERED,27834,310fe09cd7da54d7d9e51b09f1ff6447d9c2f7b03ace6e7eb60dab581454de1e,/data/public/_ipiranga_rt_bundle/artifacts/data/ds_2023-12-01_2025-12-28/data.parquet,2026-11-25T18:40:59Z
+artifacts/data/ds_2023-12-01_2025-12-28/ro-crate-metadata.json,RECOVERED,2728,a082b675b513d7dec155ae3719788abbee452f361fa48727426beb2b955a2396,/data/public/_ipiranga_rt_bundle/artifacts/data/ds_2023-12-01_2025-12-28/ro-crate-metadata.json,2026-11-25T18:41:00Z
+artifacts/data/ds_2024-12-01_2026-01-15/data.parquet,RECOVERED,22831,6ff5d92804aa3204afd10ff7d74e18f6795a3fefbac145d7a4296f36b395f759,/data/public/_ipiranga_rt_bundle/artifacts/data/ds_2024-12-01_2026-01-15/data.parquet,2026-11-25T18:39:51Z
+artifacts/data/ds_2024-12-01_2026-01-15/ro-crate-metadata.json,RECOVERED,2728,ff2a28beeb2cff95cfa7a6150cdf5596213704a2120a9f3a1e02cb4b0117dc7c,/data/public/_ipiranga_rt_bundle/artifacts/data/ds_2024-12-01_2026-01-15/ro-crate-metadata.json,2026-11-25T18:39:52Z
+artifacts/derived/ipiranga_biweekly_2025.parquet,RECOVERED,3801,35ccee096d14513c1ec65d228543a410fe0d711c299f4cf115e50e859de9457b,/data/public/_ipiranga_rt_bundle/artifacts/derived/ipiranga_biweekly_2025.parquet,2026-11-25T18:40:35Z
+artifacts/derived/ipiranga_weekly_2025.parquet,RECOVERED,7070,269637b2580d25547d6bf4dd542ef20f953d2da38ecfecb3c7205ca479b227a1,/data/public/_ipiranga_rt_bundle/artifacts/derived/ipiranga_weekly_2025.parquet,2026-11-25T18:40:35Z
+artifacts/derived/rt_estimate_8573ff9a.webp,RECOVERED,86512,9068b2bca53260eaa78a4fb5188761224987903879c9fd0b5c63d89a06852e44,/data/public/_ipiranga_rt_bundle/artifacts/derived/rt_estimate_8573ff9a.webp,2026-11-25T18:40:40Z
+artifacts/derived/rt_estimate_a2dc5f17.webp,RECOVERED,67320,4927e7a5b5ef68c70a4935280258d28639b161d9192fb145ef00f1b11a247d7b,/data/public/_ipiranga_rt_bundle/artifacts/derived/rt_estimate_a2dc5f17.webp,2026-11-25T18:40:40Z
+artifacts/figures/ipiranga_rt_2025.png,RECOVERED,159506,7e02e4c5f7990693429186b7732a272845217ed6a0994c5edb8799bbf41c9311,/data/public/_ipiranga_rt_bundle/artifacts/figures/ipiranga_rt_2025.png,2026-11-25T18:41:42Z
+artifacts/figures/plot_2735_record.json,RECOVERED,642,b7a2927a517f371872da8739469ada201528f2a67c719f3e3c68a948f115f0d4,/data/public/_ipiranga_rt_bundle/artifacts/figures/plot_2735_record.json,2026-11-25T18:53:34Z
+documentation/interaction_transcript.md,NEW,7147,59f296c835af6bc8ab95eb22bf5198d799a7f78585494c9ae38c377269f653e7,created for this repository,2026-11-25T19:16:18Z
+provenance.md,NEW,7676,e4724b48b14adddb6c85c52d47db6f8172223c9da4a246f6f40e64ca9a5ad47e,created for this repository,2026-11-25T18:54:14Z
+reproducibility/reproduce_rt.py,NEW,9146,e8f390d12869fbd8efd50e3b8d0b78dc247c744b9ae199c8bec19e10fdb2d1e9,created for this repository,2026-11-25T18:54:14Z
+reproducibility/requirements.txt,NEW,239,e48851ee4a8f20485895d0ff62bf5ab7fc880fd69a68143073af46c148fa0b09,created for this repository,2026-11-25T18:54:14Z

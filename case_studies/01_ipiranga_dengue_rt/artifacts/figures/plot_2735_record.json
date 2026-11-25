@@ -1,0 +1,11 @@
+{
+  "recovered_from": "get_plot_details(2735) tool response",
+  "plot_id": 2735,
+  "filename": "ipiranga_rt_2025.png",
+  "description": "Ipiranga Dengue Rt 2025 — Done — and the answer is pretty clean: Ipiranga had two distinct growth episodes in 2025, one big seasonal ascent and one small late-season resurgence.",
+  "source": "generated",
+  "created": "2026-11-25 18:41",
+  "file": "/data/plots/ipiranga_rt_2025.png",
+  "generating_code_file": "artifacts/code/snippet_15649__plot_2735.py",
+  "note": "Description equals the opening sentence of the original chat response; the remainder of that response is not stored as an artifact."
+}
