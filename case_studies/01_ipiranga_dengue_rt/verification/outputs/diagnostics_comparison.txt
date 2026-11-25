@@ -1,0 +1,33 @@
+== reproduce_rt.py stdout ==
+Rt>1 run  SE202506-202519: 14 wks, Rt 1.08-2.88
+Rt>1 run  SE202533-202547: 15 wks, Rt 1.05-11.11
+CI>1 run  SE202509-202511: 3 wks, Rt 1.73-2.88
+CI>1 run  SE202513-202516: 4 wks, Rt 1.32-2.00
+CI>1 run  SE202539-202543: 5 wks, Rt 2.00-11.11
+
+2025: 52 weeks, 137 cases, 962.8 per 100k (pop 14230)
+latest Rt: 0.54 [0.17, 1.10]
+
+wrote ../outputs/rt_estimates_2025.csv
+wrote ../outputs/rt_2025.png
+
+== NUMERIC COMPARISON (archived estimator vs reproduce_rt.py) ==
+weeks compared: 52  (archived 52, reproduced 52)
+  max |difference| in casos      = 0.000e+00
+  max |difference| in win_cases  = 0.000e+00
+  max |difference| in Rt         = 1.776e-15
+  max |difference| in lo         = 2.220e-16
+  max |difference| in hi         = 3.553e-15
+  max |difference| in p_gt1      = 1.110e-16
+  Rt identical to 1e-9: True
+
+== FIGURE COMPARISON ==
+  subsampled shape (150, 325, 3) (every 6th pixel)
+  max pixel difference : 1.0000
+  mean pixel difference: 0.005315
+  fraction of pixels differing by >2%: 0.8677%
+  differing row bands (full-res px, of 900 rows): [(30, 42), (54, 72)]
+  interpretation: differences are confined to the title band, where the
+  subtitle string differs ("gamma SI mean 14 d (sd 7 d)" in the archived
+  figure vs "mean 2.0 sd 1.0 weekly periods" in the rewrite) and an em
+  dash becomes a hyphen. The plotted data geometry is pixel-identical.

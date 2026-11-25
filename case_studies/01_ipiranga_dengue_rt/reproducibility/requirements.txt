@@ -1,8 +1,16 @@
-# dependencies for reproduce_rt.py
-# versions below are the ones resolved in the environment where the archive
-# was assembled; the original analysis ran inside the EpiDBot sandbox with
-# comparable versions.
-numpy
-pandas
-scipy
-matplotlib
+# Dependencies for the archived analysis, its portable rewrite, and the
+# verification scripts.
+#
+# The versions below were pinned from the environment that executed the
+# verification pass on 2026-11-25 (see verification/environment.md). They are
+# the *verification* environment; the versions used during the original
+# investigation were never recorded and are unknown.
+#
+# pyarrow is REQUIRED: pandas.read_parquet needs a Parquet engine and fails
+# without one. It was missing from revision 1 of this file.
+
+numpy==2.5.5
+pandas==2.3.3
+scipy==1.18.1
+matplotlib==3.11.2
+pyarrow==26.0.1

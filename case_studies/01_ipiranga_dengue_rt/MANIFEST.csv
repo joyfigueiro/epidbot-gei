@@ -1,5 +1,4 @@
 path,origin,bytes,sha256,source,mtime_utc
-README.md,NEW,10076,d104fc1308e1fdff1dfa002de259542f943322001f8fbe1ea637596d9326f41a,created for this repository,2026-11-25T19:16:45Z
 artifacts/code/snippet_15649__plot_2735.py,RECOVERED,4023,9113538bcb74ddadfad6760c38e9528b46279753a6609c63c2b6b01615fb7cca,/data/public/_ipiranga_rt_bundle/artifacts/code/snippet_15649__plot_2735.py,2026-11-25T18:53:34Z
 artifacts/code/snippet_15649_record.json,RECOVERED,799,6d17509a0d5eac52ac00c076f90712161034fd01d0416c8ec7246db0001df302,/data/public/_ipiranga_rt_bundle/artifacts/code/snippet_15649_record.json,2026-11-25T18:53:34Z
 artifacts/data/ds_2023-12-01_2025-12-28/data.parquet,RECOVERED,27834,310fe09cd7da54d7d9e51b09f1ff6447d9c2f7b03ace6e7eb60dab581454de1e,/data/public/_ipiranga_rt_bundle/artifacts/data/ds_2023-12-01_2025-12-28/data.parquet,2026-11-25T18:40:59Z
@@ -12,7 +11,24 @@ artifacts/derived/rt_estimate_8573ff9a.webp,RECOVERED,86512,9068b2bca53260eaa78a
 artifacts/derived/rt_estimate_a2dc5f17.webp,RECOVERED,67320,4927e7a5b5ef68c70a4935280258d28639b161d9192fb145ef00f1b11a247d7b,/data/public/_ipiranga_rt_bundle/artifacts/derived/rt_estimate_a2dc5f17.webp,2026-11-25T18:40:40Z
 artifacts/figures/ipiranga_rt_2025.png,RECOVERED,159506,7e02e4c5f7990693429186b7732a272845217ed6a0994c5edb8799bbf41c9311,/data/public/_ipiranga_rt_bundle/artifacts/figures/ipiranga_rt_2025.png,2026-11-25T18:41:42Z
 artifacts/figures/plot_2735_record.json,RECOVERED,642,b7a2927a517f371872da8739469ada201528f2a67c719f3e3c68a948f115f0d4,/data/public/_ipiranga_rt_bundle/artifacts/figures/plot_2735_record.json,2026-11-25T18:53:34Z
-documentation/interaction_transcript.md,NEW,7147,59f296c835af6bc8ab95eb22bf5198d799a7f78585494c9ae38c377269f653e7,created for this repository,2026-11-25T19:16:18Z
-provenance.md,NEW,7676,e4724b48b14adddb6c85c52d47db6f8172223c9da4a246f6f40e64ca9a5ad47e,created for this repository,2026-11-25T18:54:14Z
-reproducibility/reproduce_rt.py,NEW,9146,e8f390d12869fbd8efd50e3b8d0b78dc247c744b9ae199c8bec19e10fdb2d1e9,created for this repository,2026-11-25T18:54:14Z
-reproducibility/requirements.txt,NEW,239,e48851ee4a8f20485895d0ff62bf5ab7fc880fd69a68143073af46c148fa0b09,created for this repository,2026-11-25T18:54:14Z
+NOTICE.md,NEW,5651,a36afa5f01282bfe8e2b0a6b57300fdbb7a12a21c550a1ce2fb0817b5d1332e9,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:32:21Z
+README.md,NEW,15745,fef7e9068e4a9c30994b4ced4fde443ee7e22ba2add91d238b5392f48124d7be,created for this repository; REVISED at the 2026-11-25 verification pass,2026-11-25T19:33:59Z
+documentation/interaction_transcript.md,NEW,7147,59f296c835af6bc8ab95eb22bf5198d799a7f78585494c9ae38c377269f653e7,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:24:52Z
+provenance.md,NEW,11128,0de46cb590fa4389ad4520553004c731f651cf8e1a83b264ef20040b7f0e156b,created for this repository; REVISED at the 2026-11-25 verification pass (evidence tiers extended),2026-11-25T19:32:44Z
+reproducibility/reproduce_rt.py,NEW,9146,e8f390d12869fbd8efd50e3b8d0b78dc247c744b9ae199c8bec19e10fdb2d1e9,created for this repository,2026-11-25T19:24:52Z
+reproducibility/requirements.txt,NEW,588,5bdcb14cfcd4d8095f660e68697f8024749b36f719ec5eb81abb40d7b46fdb37,"created for this repository; REVISED at the 2026-11-25 verification pass (pyarrow added, versions pinned)",2026-11-25T19:33:25Z
+verification/code/compare_reproduce_rt.py,NEW,6959,c01e1f2f4fca9908d106ea9ed5994d05655ccb1b7648a5c1495cec06d1530437,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:30:42Z
+verification/code/sensitivity_analysis.py,NEW,7923,3ed035ddb4ed3335cb54da36a6e69752721f6d6f4b052c3a454c913f0aa2ee9a,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:30:05Z
+verification/code/verify_archived_algorithm.py,NEW,7169,8529308be4a182ed5ad0a1f1284edacf5339751a6b1e0e2455fd05a3b3a2c987,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:29:11Z
+verification/environment.md,NEW,2153,a984c43c6382a4d6c6291926e39a3a282ece12b096bc3358021afb0fe5221a45,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:32:05Z
+verification/inconsistencies.md,NEW,7674,68e45365047c0c3712f2735f0b808f8e9491dcdc686329e6de59e3f35299439f,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:32:05Z
+verification/outputs/diagnostics_archived_algorithm.txt,NEW,1766,3a4ba6a111320acd90c38262119deda0df31d8ad753e63623dfbc2e825589d28,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:29:20Z
+verification/outputs/diagnostics_comparison.txt,NEW,1382,d1840098a050b07d99175a4bd48095b048ab8e009f4b521ba906399ae4e7a71e,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:30:52Z
+verification/outputs/diagnostics_sensitivity.txt,NEW,2917,c5d205128cb30e795d03a64990fd92b1872be603225f5ee17208b82f01e827b6,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:30:14Z
+verification/outputs/rt_2025.png,NEW,160090,2fc9d836d692b37cb35736da80ffd97d8935cb477e5c60c2496d450bbc4b5d24,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:30:52Z
+verification/outputs/rt_estimates_2025.csv,NEW,5833,69ee356f2a8d936600f18f33fd5a8d639cc86225221a4a4227ccb1a09537aa2d,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:30:51Z
+verification/outputs/rt_weekly_reproduced.csv,NEW,6813,77b946d837cb3865e473e37069e6a277832c4fb7f8b0805a6de9e2fc1bf610a8,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:29:20Z
+verification/outputs/sensitivity_prior.csv,NEW,1459,46fd88e9a219efdf1ea9589bd3fec65a7ad9150cb993f3f6020cb00db55bddd7,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:30:13Z
+verification/outputs/sensitivity_serial_interval.csv,NEW,1053,2e6322a99e4d0e99852c4c5ca42b28b4e930af4bd23b7c075e3cb2f209cc8bb4,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:30:14Z
+verification/outputs/sensitivity_window.csv,NEW,752,5ea14a98129c24e83f289ca99305644296259c55eecdad273a8e14e76f35542e,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:30:14Z
+verification/verification.md,NEW,14844,2ed7c3bbc1f3f425509d525bd16dc9d05a6939066520f72c672e209b371c3148,created for this repository at the 2026-11-25 verification pass,2026-11-25T19:31:54Z

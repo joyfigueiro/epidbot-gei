@@ -1,0 +1,41 @@
+== FILTERING ==
+dataset rows=109 SE 202349-202553
+SE202501 in dataset: True (data_iniSE=2024-12-29)
+calendar-year filter (archived): n=52 weeks, SE202502-202553
+epi-year filter SE202501-202553: n=53 weeks, SE202501-202553
+excluded by calendar filter: [202501]
+
+== INCIDENCE ==
+2025 cases (calendar): 137
+2025 cases (epi-year) : 137
+annual incidence: 962.8 per 100k (pop 14230)
+peak week: SE202514 (2025-03-30) 15 cases, 105.4/100k
+
+== THRESHOLD COUNTS ==
+Rt>1 : 30 of 52  (epi-year: 31 of 53)
+lo>1 : 12 of 52
+weeks with casos==0        : 23
+windows with win_cases==0  : 9 (SE202530-202538)
+  -> in zero-case windows Rt drifts to prior mean (a+0)/(b+0)=5.0; values 0.10-5.00
+
+== SUSTAINED-GROWTH RUNS (Rt>1 for >=3 weeks) ==
+  SE202506-202519: 14 wks, Rt 1.08-2.88, cases 90
+  SE202533-202547: 15 wks, Rt 1.05-11.11, cases 24
+== RUNS WITH LOWER 95% CREDIBLE BOUND > 1 (>=2 weeks) ==
+  SE202509-202511: 3 wks, Rt 1.73-2.88, cases 13
+  SE202513-202516: 4 wks, Rt 1.32-2.00, cases 45
+  SE202539-202543: 5 wks, Rt 2.00-11.11, cases 15
+
+== KEY WEEKS (week-level detail) ==
+  SE202538: casos=0 win_cases=0 win_lam=0.000126 Rt=4.9969 95%CrI=[0.1265,18.4328]
+  SE202539: casos=1 win_cases=1 win_lam=0.000023 Rt=9.9989 95%CrI=[1.2109,27.8550]
+  SE202540: casos=4 win_cases=5 win_lam=0.340245 Rt=11.1061 95%CrI=[4.0757,21.5982]
+  SE202541: casos=2 win_cases=7 win_lam=2.090807 Rt=3.4922 95%CrI=[1.5077,6.2959]
+  SE202542: casos=5 win_cases=12 win_lam=4.516510 Rt=2.7563 95%CrI=[1.4676,4.4443]
+  SE202543: casos=3 win_cases=15 win_lam=7.805862 Rt=1.9985 95%CrI=[1.1423,3.0903]
+  SE202553: casos=0 win_cases=4 win_lam=9.124705 Rt=0.5362 95%CrI=[0.1741,1.0983]
+
+max Rt: 11.1061 at SE202540
+latest Rt: 0.5362 [0.1741, 1.0983] at SE202553
+
+wrote ../outputs/rt_weekly_reproduced.csv
