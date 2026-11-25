@@ -1,0 +1,37 @@
+claim_id,subsection,claim,n,denominator,evidence_file,script_or_function,figure_or_table,status,notes
+C5.1.1,5.1,The platform ran with 237 active accounts and 667 sessions over 227 days,237.0,accounts,data/audit/S0_totals.csv,reproduce_section5.py::table_platform_totals,Table t5_11,VERIFIED,245-day window 2026-03-28..2026-11-10
+C5.1.2,5.1,286 accounts were registered and 223 verified,286.0,accounts,data/audit/dashboard_payload_pseudonymised.json,table_platform_totals,Table t5_11,DEFINED,verified is not a superset of active (237 > 223); do not present as a funnel
+C5.1.3,5.1,Activity is concentrated: the top ten accounts produced 39.9% of messages,2779.0,6967,administrative usage report 2026-11-10 (aggregate only),table_activity_concentration,Table t5_11 / text,VERIFIED,39.8% in the 2026-10-27 extraction; stable
+C5.1.4,5.1,"Five user contexts are identifiable, four of them external",5.0,contexts,data/audit/EXPORT_prompts_anonymised.csv,table_context_profile,Table t5_6,VERIFIED,"contexts are coded labels, not verified institutions"
+C5.1.5,5.1,External users supplied 143 of the 186 coded requests,143.0,186,data/audit/EXPORT_prompts_anonymised.csv,table_internal_external,Table t5_7,VERIFIED,
+C5.1.6,5.1,Geographic and institutional distribution of users,,,none - withheld at pseudonymisation,-,-,MISSING,"deliberate data-protection choice; state it, do not promise a map"
+C5.2.1,5.2,Weekend accounts for 14.1% of message volume,983.0,6967,data/messages_by_weekday.csv,table_weekday_rhythm,Table t5_12 / Figure 7a,VERIFIED,weekday rows are additive; asserted by the script
+C5.2.2,5.2,Sessions average 10.45 messages,6967.0,667,data/audit/S0_totals.csv,table_platform_totals,Table t5_11,VERIFIED,messages include assistant turns
+C5.2.3,5.2,Twelve workspace groups differ widely in activity,12.0,groups,data/usage_by_group.csv,table_group_activity,Figure 7b,VERIFIED,groups overlap; sum 10937 vs total 6967 (inflation 57%)
+C5.2.4,5.2,Activity grew over the observation window,,,four cumulative snapshots only,snapshot_reconciliation,-,MISSING,no time series exists; only S1->S4 delta +19 sessions / +279 messages over 14 days
+C5.2.5,5.2,Tool calls by functional category,10863.0,36,none,-,-,UNSUPPORTED,figure appears in no file; nearest value 10937 is the non-additive group sum; delete
+C5.2.6,5.2,"Artifacts produced (plots, reports, datasets, dashboards)",,,none,-,-,MISSING,not archived against sessions
+C5.3.1,5.3,Research and writing support is the largest objective category,56.0,186,data/audit/objectives.csv,table_objectives,Table t5_5 / Figure S2,VERIFIED,"gloss inferred, needs author confirmation"
+C5.3.2,5.3,Platform-meta questions are the second largest category,52.0,186,data/audit/objectives.csv,table_objectives,Table t5_5 / Figure S2,VERIFIED,
+C5.3.3,5.3,RES and META together account for 58% of requests,108.0,186,data/audit/objectives.csv,table_objectives,Table t5_5,VERIFIED,
+C5.3.4,5.3,Descriptive epidemiology accounts for 11.3% of requests,21.0,186,data/audit/objectives.csv,table_objectives,Table t5_5,VERIFIED,
+C5.3.5,5.3,Demand profile differs by user context,186.0,186,data/audit/EXPORT_prompts_anonymised.csv,crosstab scope x objective,text / Table 5.5,VERIFIED,raw-count level; independent of capability coding
+C5.3.6,5.3,Out-of-scope requests concentrate among walk-in users,3.0,38,data/audit/EXPORT_prompts_anonymised.csv,crosstab scope x objective,text,VERIFIED,7.9% of walk-in prompts; 0% international
+C5.3.7,5.3,The 186 requests are a random sample of user questions,,,none,-,-,MISSING,selection rule not recorded; treat as purposive
+C5.4.1,5.4,Visualization and reporting is the most requested capability area,59.0,141,data/audit/capability_prevalence_gei.csv,table_capability_prevalence,Table t5_1 / Figure 5a,VERIFIED,reproduces archived marginal exactly
+C5.4.2,5.4,Integration of heterogeneous data sources is requested in 40.4% of eligible requests,57.0,141,data/audit/capability_prevalence_gei.csv,table_capability_prevalence,Table t5_1 / Figure 5a,VERIFIED,
+C5.4.3,5.4,Mathematical modelling is the least requested area,24.0,141,data/audit/capability_prevalence_gei.csv,table_capability_prevalence,Table t5_1 / Figure 5a,VERIFIED,
+C5.4.4,5.4,Requests combine a mean of 1.61 capability areas,227.0,141,data/audit/ncap_distribution.csv,table_composition_depth,Table t5_2 / Figure 5b,VERIFIED,227 code occurrences over 141 prompts
+C5.4.5,5.4,59 requests (41.8%) combine two or more capability areas,59.0,141,data/audit/ncap_distribution.csv,table_composition_depth,Table t5_2 / Figure 5b,VERIFIED,headline composition result
+C5.4.6,5.4,Composition is frequent but shallow (2.8% reach four areas),4.0,141,data/audit/ncap_distribution.csv,table_composition_depth,Table t5_2 / Figure 5b,VERIFIED,
+C5.4.7,5.4,Analysis and visualization form the dominant pair,26.0,141,data/audit/cooccurrence.csv,table_cooccurrence,Table t5_3 / Figure 6,VERIFIED,cell-by-cell match with archived matrix
+C5.4.8,5.4,Modelling rarely appears alone (11 of 24 M requests also involve K),11.0,24,data/audit/cooccurrence.csv,table_cooccurrence,Table t5_3 / Figure 6,VERIFIED,
+C5.4.9,5.4,Integration demand rises from 20.7% (academic) to 80.0% (walk-in),20.0,25,data/audit/EXPORT_prompts_anonymised.csv,table_context_profile,Table t5_6 / Figure S1,DEFINED,walk-in: 20/25 eligible; academic: 6/29 eligible (20.7%)
+C5.4.10,5.4,Eight requests (4.3%) asked for explicit cross-domain integration,8.0,186,data/audit/EXPORT_prompts_anonymised.csv,table_evidence_dimensions,Table t5_8,DEFINED,crossdomain == nsources>=2 exactly; report as 'named two or more data sources'
+C5.4.11,5.4,43.0% of requests depend on earlier conversational context,80.0,186,data/audit/EXPORT_prompts_anonymised.csv,table_evidence_dimensions,Table t5_8,VERIFIED,proxy for continuity; no session-level linkage
+C5.4.12,5.4,Capabilities were composed and executed jointly in single investigations,,,none - no tool-call record,-,-,MISSING,prompt text cannot evidence executed composition; use the Ipiranga trace instead
+C5.5.1,5.5,One investigation is traced end to end with verification,1.0,1,case_studies/01_ipiranga_dengue_rt/,case study verification tree,Section 5.5 text,VERIFIED,E1; correction 30/50 -> 30/52 weeks in revision 2
+C5.5.2,5.5,Provenance distrust is the leading friction category,9.0,186,data/audit/failure_modes.csv,reproduce_section5.py (failure_modes),Table t5_10 / Figure S3,VERIFIED,"4 workspace groups, internal included"
+C5.5.3,5.5,Artifact persistence and retrieval problems occur across groups,10.0,186,data/audit/failure_modes.csv,failure_modes,Table t5_10 / Figure S3,VERIFIED,"6 + 4 mentions, 3 groups each"
+C5.5.4,5.5,Fourteen request archetypes illustrate use across five contexts,14.0,archetypes,05_real_world_settings/EXAMPLE_INVENTORY.csv,curated from the coded corpus,Section 5.5 text,DEFINED,evidence level E3 except EX-01 (E1)
+C5.5.5,5.5,Institutional impact of any example,,,none,-,-,UNSUPPORTED,no file records what any institution did with an output

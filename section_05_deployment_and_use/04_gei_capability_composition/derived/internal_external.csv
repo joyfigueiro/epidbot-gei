@@ -1,0 +1,8 @@
+code,label,n_internal,pct_internal,n_external,pct_external
+I,Integration of heterogeneous data sources,43,32.6,143,30.8
+K,Access to scientific knowledge,43,18.6,143,23.1
+A,Epidemiological analysis,43,23.3,143,27.3
+M,Mathematical modelling,43,18.6,143,11.9
+V,Visualization and reporting,43,30.2,143,32.2
+S,Platform-meta request (non-GEI),43,41.9,143,33.6
+X,Out of scope,43,2.3,143,3.5

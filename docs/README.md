@@ -28,3 +28,27 @@ dot -Tpng figures/src/fig_architecture.dot -o figures/fig_architecture.png
 `figures/fig_architecture.png` é o diagrama da arquitetura em quatro camadas, reproduzido
 como Figura 4 no manuscrito. A fonte Graphviz está em
 `figures/src/fig_architecture.dot` e pode ser renderizada com o comando acima.
+
+## Section 5 documentation / Documentação da Seção 5
+
+The Section 5 evidence package is documented in
+[`../section_05_deployment_and_use/`](../section_05_deployment_and_use/), starting from
+its `README.md`, with methods in `methodology/SECTION5_METHODS.md` and the
+consistency audit in `methodology/CONSISTENCY_AUDIT.md`.
+
+**Language exception.** Unlike the documents above, the Section 5 package is currently
+English-only. It feeds an English manuscript, it is revised daily during writing, and
+keeping two parallel versions in sync at that cadence would create drift. Portuguese
+versions will be produced once Section 5 is frozen. The bilingual convention continues
+to hold for every document listed in the table above.
+
+O pacote de evidências da Seção 5 está documentado em
+[`../section_05_deployment_and_use/`](../section_05_deployment_and_use/), a partir do
+`README.md`, com os métodos em `methodology/SECTION5_METHODS.md` e a auditoria de
+consistência em `methodology/CONSISTENCY_AUDIT.md`.
+
+**Exceção de idioma.** Diferentemente dos documentos acima, o pacote da Seção 5 está
+por ora apenas em inglês. Ele alimenta um manuscrito em inglês e é revisado diariamente
+durante a redação; manter duas versões paralelas nessa cadência criaria divergência. As
+versões em português serão produzidas quando a Seção 5 estiver congelada. A convenção
+bilíngue continua valendo para todos os documentos da tabela acima.

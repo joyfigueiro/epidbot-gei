@@ -45,3 +45,23 @@ The script uses explicit type hints, a docstring on every function, and no globa
 state. It reads only from the folder passed in `--input` and writes only to the folder
 passed in `--output`, so it can be run against a fork of the data without touching the
 repository.
+
+## Section 5 scripts
+
+The Section 5 analysis has its own scripts, kept next to the evidence they produce:
+
+| Script | Job |
+| --- | --- |
+| `section_05_deployment_and_use/scripts/reproduce_section5.py` | recompute every prompt-level statistic from `data/audit/EXPORT_prompts_anonymised.csv`, verify it against the archived marginals, and write 17 derived tables plus 12 LaTeX tables |
+| `section_05_deployment_and_use/scripts/make_section5_figures.py` | draw the six Section 5 figures from those tables at 300 dpi PNG and vector PDF |
+
+They follow the same conventions as `build_usage_tables.py`: type hints, a docstring on
+every function, no global state, and an explicit `--input`/`--out` so they can be run
+against a fork without touching the repository. `reproduce_section5.py` exits non-zero
+if a recomputation disagrees with an archived marginal, which makes it usable as a
+regression test.
+
+```bash
+python section_05_deployment_and_use/scripts/reproduce_section5.py
+python section_05_deployment_and_use/scripts/make_section5_figures.py
+```

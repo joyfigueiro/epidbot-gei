@@ -1,0 +1,13 @@
+combination,capabilities,prompts,pct_of_multi,readable
+I+A+V,"['I', 'A', 'V']",12,20.3,Data integration + Epidemiological analysis + Visualization & reporting
+I+A,"['I', 'A']",7,11.9,Data integration + Epidemiological analysis
+A+V,"['A', 'V']",6,10.2,Epidemiological analysis + Visualization & reporting
+K+V,"['K', 'V']",6,10.2,Scientific knowledge + Visualization & reporting
+K+M,"['K', 'M']",6,10.2,Scientific knowledge + Mathematical modelling
+K+A,"['K', 'A']",5,8.5,Scientific knowledge + Epidemiological analysis
+K+A+M+V,"['K', 'A', 'M', 'V']",3,5.1,Scientific knowledge + Epidemiological analysis + Mathematical modelling + Visualization & reporting
+A+M+V,"['A', 'M', 'V']",3,5.1,Epidemiological analysis + Mathematical modelling + Visualization & reporting
+I+K,"['I', 'K']",2,3.4,Data integration + Scientific knowledge
+I+A+M,"['I', 'A', 'M']",1,1.7,Data integration + Epidemiological analysis + Mathematical modelling
+I+A+M+V,"['I', 'A', 'M', 'V']",1,1.7,Data integration + Epidemiological analysis + Mathematical modelling + Visualization & reporting
+I+M,"['I', 'M']",1,1.7,Data integration + Mathematical modelling

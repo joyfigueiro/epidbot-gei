@@ -1,0 +1,11 @@
+objective,gloss_inferred,prompts,pct
+RES,Research and writing support,56,30.1
+META,Platform-meta question,52,28.0
+DESC,Descriptive epidemiology,21,11.3
+TRAN,Data transformation / parameter rescaling,14,7.5
+SURV,Surveillance monitoring,14,7.5
+OOS,Out of scope,9,4.8
+RISK,Risk assessment,7,3.8
+PLAN,Analytical planning,7,3.8
+FORE,Forecasting,4,2.2
+COMP,Comparison across units,2,1.1

@@ -1,0 +1,6 @@
+capability,label,n,denominator,pct,mean_capabilities_per_prompt
+V,Visualization and reporting,59,141,41.8,1.61
+I,Integration of heterogeneous data sources,57,141,40.4,1.61
+A,Epidemiological analysis,49,141,34.8,1.61
+K,Access to scientific knowledge,38,141,27.0,1.61
+M,Mathematical modelling,24,141,17.0,1.61

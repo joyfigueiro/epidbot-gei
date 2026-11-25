@@ -1,0 +1,8 @@
+failure_mode,n,pct,n_groups,groups,pids
+Provenance / hallucination distrust,9,4.8,4,"G04, G08, G09, G12","1, 4, 21, 35, 143, 144, 167, 173, 183"
+Report/artifact persistence,6,3.2,3,"G09, G10, G12","38, 88, 89, 158, 159, 161"
+Artifact not delivered / not found,4,2.2,3,"G06, G10, G12","69, 105, 108, 170"
+Stalled / slow / bottleneck,4,2.2,4,"G02, G03, G04, G06","93, 103, 120, 147"
+Data coverage doubt,4,2.2,4,"G02, G08, G10, G12","73, 122, 154, 177"
+Input/format incompatibility,3,1.6,3,"G03, G07, G09","11, 50, 94"
+Retry after failed execution,1,0.5,1,G06,104

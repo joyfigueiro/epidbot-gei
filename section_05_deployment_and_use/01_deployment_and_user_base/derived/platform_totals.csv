@@ -1,0 +1,12 @@
+indicator,value,source
+Registered accounts,286.0,dashboard payload (S4)
+Verified accounts,223.0,dashboard payload (S4)
+Active accounts,237.0,S0_totals.csv
+Sessions,667.0,S0_totals.csv
+Messages (user + assistant),6967.0,S0_totals.csv
+User questions,995.0,S0_totals.csv
+Observation window (days),227.0,dashboard payload (S4)
+Messages per session,10.45,derived
+Messages per active account,29.4,derived
+Questions per active account,4.2,derived
+Messages per question,7.0,derived

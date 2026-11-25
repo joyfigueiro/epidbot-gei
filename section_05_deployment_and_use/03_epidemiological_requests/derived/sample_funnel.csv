@@ -1,0 +1,5 @@
+stage,prompts,pct_of_coded
+Coded prompts,186,100.0
+GEI-eligible (>=1 GEI capability),141,75.8
+Platform-meta only,36,19.4
+Out of scope,9,4.8

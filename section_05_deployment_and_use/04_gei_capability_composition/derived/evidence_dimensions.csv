@@ -1,0 +1,6 @@
+dimension,prompts,denominator,pct
+Requests naming >=1 data source,70,186,37.6
+Requests naming >=2 data sources,8,186,4.3
+Explicit cross-domain integration requested,8,186,4.3
+Artifact- or context-dependent request,80,186,43.0
+Independent request,106,186,57.0

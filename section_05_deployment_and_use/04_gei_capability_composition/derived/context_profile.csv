@@ -1,0 +1,6 @@
+context,n_prompts,n_eligible,mean_gei_all,mean_gei_eligible,pct_multi_of_all,pct_multi_of_eligible,pct_I_of_all,pct_I_of_eligible,pct_K_of_all,pct_K_of_eligible,pct_A_of_all,pct_A_of_eligible,pct_M_of_all,pct_M_of_eligible,pct_V_of_all,pct_V_of_eligible
+Internal (core team),43,33,1.23,1.55,27.9,36.4,32.6,39.4,18.6,24.2,23.3,30.3,18.6,21.2,30.2,39.4
+External - government,45,37,1.42,1.68,37.8,45.9,17.8,21.6,28.9,29.7,37.8,45.9,13.3,16.2,44.4,54.1
+External - academic,41,29,1.15,1.59,31.7,44.8,14.6,20.7,29.3,37.9,12.2,17.2,17.1,24.1,41.5,58.6
+External - international,19,17,1.32,1.47,31.6,35.3,52.6,58.8,26.3,29.4,21.1,23.5,15.8,17.6,15.8,17.6
+External - walk-in,38,25,1.13,1.72,28.9,44.0,52.6,80.0,7.9,12.0,34.2,52.0,2.6,4.0,15.8,24.0
