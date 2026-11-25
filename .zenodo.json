@@ -1,0 +1,14 @@
+
+{
+  "title": "Supplementary material for: Generalized Epidemic Intelligence, an agentic architecture for automated, LLM-driven and adaptive epidemiological investigation",
+  "description": "<p>Documentation of the four architectural layers of EpidBot, aggregate usage evidence for the evaluation reported in the manuscript, and the code that rebuilds every supplementary table from those aggregates. Every document is provided in English and in Portuguese. The repository contains no personal data: the usage tables are aggregates produced from the session log after removing all account, session and message identifiers.</p>",
+  "creators": [
+    {"name": "Figueiro Braga, Joyce", "affiliation": "School of Applied Mathematics, Fundacao Getulio Vargas"},
+    {"name": "Codeco Coelho, Flavio", "affiliation": "School of Applied Mathematics, Fundacao Getulio Vargas"},
+    {"name": "Laiate, Beatriz", "affiliation": "Institute of Science and Technology, Federal University of Sao Paulo"}
+  ],
+  "keywords": ["epidemic intelligence", "public health surveillance", "large language models", "agentic architecture", "reproducibility"],
+  "license": {"id": "CC-BY-4.0"},
+  "upload_type": "dataset",
+  "language": "eng"
+}

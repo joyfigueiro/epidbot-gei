@@ -1,0 +1,13 @@
+pid,group_id,text,caps,objective,deictic,nsources,crossdomain,ncap,scope,n_gei
+21,G09,Quantas fontes de dados estão acessíveis para você?,I,META,0,0,0,1,Internal (core team),1
+92,G10,Quais conjuntos de dados estão disponíveis? Mostre o catálogo,I,META,0,0,0,1,External - government,1
+111,G06,Quais conjuntos de dados estão disponíveis? Mostre o catálogo,I,META,0,0,0,1,External - government,1
+112,G06,Quais conjuntos de dados estão disponíveis? Mostre o catálogo,I,META,0,0,0,1,External - government,1
+116,G02,What data is available for Hungary?,I,META,0,1,0,1,External - international,1
+121,G02,What datasets are available? What is the difference between you and other LLMs?,IS,META,0,0,0,2,External - international,1
+132,G04,Quais conjuntos de dados estão disponíveis? Mostre o catálogo,I,META,0,0,0,1,External - walk-in,1
+133,G04,Quais agravos têm notificação disponível pelo SUS e qual período?,I,META,0,1,0,1,External - walk-in,1
+134,G04,Quais doenças têm notificação disponível pelo DATASUS e quais períodos?,I,META,0,1,0,1,External - walk-in,1
+172,G08,O que você pode fazer?,S,META,0,0,0,1,External - walk-in,0
+179,G08,Quais datasets estão disponíveis para dados de vetores da dengue?,I,META,0,1,0,1,External - walk-in,1
+181,G08,"Quais datasets estão disponíveis sobre dengue em Juiz de Fora, MG?",I,META,0,1,0,1,External - walk-in,1

@@ -1,0 +1,2 @@
+group_id,segment,users_band,users_exact,sessions,messages,questions,messages_per_session,messages_per_user,disclosure_note
+ALL,all users,>20,237,667,6967,995,10.45,29.4,single snapshot 2026-11-10; no group attribution

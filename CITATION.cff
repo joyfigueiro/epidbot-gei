@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite the manuscript and this repository."
+title: "Supplementary material for: Generalized Epidemic Intelligence, an agentic architecture for automated, LLM-driven and adaptive epidemiological investigation"
+type: software
+version: 1.0.0
+date-released: 2026-11-25
+license: CC-BY-4.0
+# The documentation, aggregate data and figures are licensed CC BY 4.0 (see LICENSE).
+# The Python code in analysis/ is licensed MIT (see LICENSE-CODE).
+repository-code: "https://github.com/joyfigueiro/epidbot-gei"
+url: "https://github.com/joyfigueiro/epidbot-gei"
+keywords:
+  - epidemic intelligence
+  - public health surveillance
+  - large language models
+  - agentic architecture
+  - reproducibility
+  - Brazil
+authors:
+  - family-names: Figueiro Braga
+    given-names: Joyce
+    affiliation: "School of Applied Mathematics, Fundacao Getulio Vargas, Rio de Janeiro, Brazil"
+    email: joyce.braga@fgv.br
+  - family-names: Codeco Coelho
+    given-names: Flavio
+    affiliation: "School of Applied Mathematics, Fundacao Getulio Vargas, Rio de Janeiro, Brazil"
+    email: flavio.codeco.coelho@fgv.br
+  - family-names: Laiate
+    given-names: Beatriz
+    affiliation: "Institute of Science and Technology, Federal University of Sao Paulo, Sao Jose dos Campos, Brazil"
+    email: beatrizlaiate@gmail.com

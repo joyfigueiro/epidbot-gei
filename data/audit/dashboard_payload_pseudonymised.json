@@ -1,0 +1,557 @@
+{
+ "kpi": {
+  "total_sessions": 667,
+  "total_messages": 6967,
+  "active_users": 237,
+  "questions": 995,
+  "reg_accounts": 286,
+  "verified": 223,
+  "window_days": 227
+ },
+ "group_sessions": {
+  "columns": [
+   "group_id",
+   "sessions"
+  ],
+  "rows": [
+   [
+    "G09",
+    287
+   ],
+   [
+    "G05",
+    185
+   ],
+   [
+    "G04",
+    96
+   ],
+   [
+    "G08",
+    84
+   ],
+   [
+    "G03",
+    57
+   ],
+   [
+    "G10",
+    54
+   ],
+   [
+    "G02",
+    50
+   ],
+   [
+    "G06",
+    34
+   ],
+   [
+    "G07",
+    30
+   ],
+   [
+    "G12",
+    21
+   ],
+   [
+    "G01",
+    7
+   ],
+   [
+    "G11",
+    1
+   ]
+  ]
+ },
+ "snapshots": {
+  "columns": [
+   "snapshot",
+   "messages",
+   "questions"
+  ],
+  "rows": [
+   [
+    "2026-10-27",
+    6688,
+    968
+   ],
+   [
+    "2026-11-10 (18:51)",
+    6961,
+    994
+   ],
+   [
+    "2026-11-10 (23:55)",
+    6967,
+    995
+   ]
+  ]
+ },
+ "overlap": {
+  "columns": [
+   "metric",
+   "sum_of_groups",
+   "reported_total",
+   "inflation_pct"
+  ],
+  "rows": [
+   [
+    "Sessions",
+    906,
+    667,
+    35.8
+   ],
+   [
+    "Messages",
+    10937,
+    6967,
+    57.0
+   ],
+   [
+    "Active users",
+    250,
+    237,
+    5.5
+   ],
+   [
+    "Questions",
+    1690,
+    995,
+    69.8
+   ]
+  ]
+ },
+ "cap_prev": {
+  "columns": [
+   "capability",
+   "pct",
+   "n"
+  ],
+  "rows": [
+   [
+    "Integration of heterogeneous data",
+    40.4,
+    57
+   ],
+   [
+    "Scientific knowledge",
+    27.0,
+    38
+   ],
+   [
+    "Epidemiological analysis",
+    34.8,
+    49
+   ],
+   [
+    "Mathematical modelling",
+    17.0,
+    24
+   ],
+   [
+    "Visualization & reporting",
+    41.8,
+    59
+   ]
+  ]
+ },
+ "cap_depth": {
+  "columns": [
+   "n_capabilities",
+   "prompts",
+   "pct"
+  ],
+  "rows": [
+   [
+    1,
+    82,
+    58.2
+   ],
+   [
+    2,
+    36,
+    25.5
+   ],
+   [
+    3,
+    19,
+    13.5
+   ],
+   [
+    4,
+    4,
+    2.8
+   ]
+  ]
+ },
+ "combos": {
+  "columns": [
+   "combination",
+   "prompts"
+  ],
+  "rows": [
+   [
+    "Analysis + Data + Reporting",
+    12
+   ],
+   [
+    "Analysis + Data",
+    7
+   ],
+   [
+    "Knowledge + Modelling",
+    6
+   ],
+   [
+    "Analysis + Reporting",
+    6
+   ],
+   [
+    "Knowledge + Reporting",
+    6
+   ],
+   [
+    "Analysis + Knowledge",
+    5
+   ],
+   [
+    "Analysis + Knowledge + Modelling + Reporting",
+    3
+   ],
+   [
+    "Analysis + Modelling + Reporting",
+    3
+   ],
+   [
+    "Data + Knowledge",
+    2
+   ],
+   [
+    "Analysis + Data + Modelling",
+    1
+   ],
+   [
+    "Analysis + Data + Modelling + Reporting",
+    1
+   ],
+   [
+    "Data + Reporting",
+    1
+   ],
+   [
+    "Data + Modelling",
+    1
+   ],
+   [
+    "Analysis + Modelling",
+    1
+   ],
+   [
+    "Knowledge + Modelling + Reporting",
+    1
+   ],
+   [
+    "Modelling + Reporting",
+    1
+   ],
+   [
+    "Analysis + Knowledge + Reporting",
+    1
+   ],
+   [
+    "Analysis + Knowledge + Modelling",
+    1
+   ]
+  ]
+ },
+ "src": {
+  "columns": [
+   "named_sources",
+   "prompts"
+  ],
+  "rows": [
+   [
+    "0",
+    116
+   ],
+   [
+    "1",
+    62
+   ],
+   [
+    "2",
+    6
+   ],
+   [
+    "3",
+    2
+   ]
+  ]
+ },
+ "crossdomain": {
+  "columns": [
+   "type",
+   "prompts"
+  ],
+  "rows": [
+   [
+    "Single domain / unspecified",
+    178
+   ],
+   [
+    "Cross-domain integration",
+    8
+   ]
+  ]
+ },
+ "cont": {
+  "columns": [
+   "type",
+   "prompts"
+  ],
+  "rows": [
+   [
+    "Artifact-dependent",
+    80
+   ],
+   [
+    "Independent",
+    106
+   ]
+  ]
+ },
+ "obj": {
+  "columns": [
+   "objective",
+   "prompts",
+   "pct"
+  ],
+  "rows": [
+   [
+    "Research & manuscript",
+    56,
+    30.1
+   ],
+   [
+    "Platform meta",
+    52,
+    28.0
+   ],
+   [
+    "Descriptive epidemiology",
+    21,
+    11.3
+   ],
+   [
+    "Transmission modelling",
+    14,
+    7.5
+   ],
+   [
+    "Surveillance",
+    14,
+    7.5
+   ],
+   [
+    "Out of scope",
+    9,
+    4.8
+   ],
+   [
+    "Risk assessment",
+    7,
+    3.8
+   ],
+   [
+    "Health planning",
+    7,
+    3.8
+   ],
+   [
+    "Forecasting",
+    4,
+    2.2
+   ],
+   [
+    "Comparative",
+    2,
+    1.1
+   ]
+  ]
+ },
+ "scope_profile": {
+  "columns": [
+   "context",
+   "n_prompts",
+   "I",
+   "K",
+   "A",
+   "M",
+   "V"
+  ],
+  "rows": [
+   [
+    "External academic",
+    41,
+    14.6,
+    29.3,
+    12.2,
+    17.1,
+    41.5
+   ],
+   [
+    "External government",
+    45,
+    17.8,
+    28.9,
+    37.8,
+    13.3,
+    44.4
+   ],
+   [
+    "External international",
+    19,
+    52.6,
+    26.3,
+    21.1,
+    15.8,
+    15.8
+   ],
+   [
+    "External walk-in",
+    38,
+    52.6,
+    7.9,
+    34.2,
+    2.6,
+    15.8
+   ],
+   [
+    "Internal (core team)",
+    43,
+    32.6,
+    18.6,
+    23.3,
+    18.6,
+    30.2
+   ]
+  ]
+ },
+ "fail": {
+  "columns": [
+   "failure_mode",
+   "prompts",
+   "pct"
+  ],
+  "rows": [
+   [
+    "Provenance / hallucination distrust",
+    9,
+    4.8
+   ],
+   [
+    "Report/artifact persistence",
+    6,
+    3.2
+   ],
+   [
+    "Artifact not delivered / not found",
+    4,
+    2.2
+   ],
+   [
+    "Stalled / slow / bottleneck",
+    4,
+    2.2
+   ],
+   [
+    "Data coverage doubt",
+    4,
+    2.2
+   ],
+   [
+    "Input/format incompatibility",
+    3,
+    1.6
+   ],
+   [
+    "Retry after failed execution",
+    1,
+    0.5
+   ]
+  ]
+ },
+ "funnel": {
+  "columns": [
+   "stage",
+   "prompts"
+  ],
+  "rows": [
+   [
+    "Sampled & coded prompts",
+    186
+   ],
+   [
+    "GEI-eligible (≥1 GEI capability)",
+    141
+   ],
+   [
+    "Platform-meta only",
+    36
+   ],
+   [
+    "Out of scope",
+    9
+   ]
+  ]
+ },
+ "pairs": {
+  "columns": [
+   "pair",
+   "prompts"
+  ],
+  "rows": [
+   [
+    "Analysis ↔ Reporting",
+    26
+   ],
+   [
+    "Data ↔ Analysis",
+    21
+   ],
+   [
+    "Data ↔ Reporting",
+    14
+   ],
+   [
+    "Knowledge ↔ Modelling",
+    11
+   ],
+   [
+    "Knowledge ↔ Reporting",
+    11
+   ],
+   [
+    "Knowledge ↔ Analysis",
+    10
+   ],
+   [
+    "Analysis ↔ Modelling",
+    10
+   ],
+   [
+    "Modelling ↔ Reporting",
+    9
+   ],
+   [
+    "Data ↔ Modelling",
+    3
+   ],
+   [
+    "Data ↔ Knowledge",
+    2
+   ]
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+group_id,segment,users_band,active_users,sessions,messages,user_questions,messages_per_session,messages_per_user,period_start,period_end,disclosure_note
+G01,external_international,3-5,,7,47,3,6.71,,2026-04-19,2026-05-26,per-user rates withheld (3-5 accounts)
+G02,external_international,>20,48,50,177,19,3.54,3.7,2026-09-09,2026-10-31,
+G03,external_government,1-2,,57,548,33,9.61,,2026-05-04,2026-06-03,per-user rates withheld (1-2 accounts)
+G04,external_open,>20,71,96,424,54,4.42,6.0,2026-05-05,2026-10-29,
+G05,internal_test,3-5,,185,3106,507,16.79,,2026-03-28,2026-11-10,per-user rates withheld (3-5 accounts)
+G06,external_government,6-10,6,34,173,17,5.09,28.8,2026-05-22,2026-10-20,
+G07,external_academic,3-5,,30,706,166,23.53,,2026-05-05,2026-11-03,per-user rates withheld (3-5 accounts)
+G08,external_open,>20,74,84,329,21,3.92,4.4,2026-06-11,2026-11-09,
+G09,internal_dev,11-20,14,287,4471,764,15.58,319.4,2026-03-28,2026-11-10,
+G10,external_government,11-20,11,54,815,85,15.09,74.1,2026-05-22,2026-11-06,
+G11,internal_test,1-2,,1,10,0,10.0,,2026-09-09,2026-09-21,per-user rates withheld (1-2 accounts)
+G12,external_academic,11-20,12,21,131,21,6.24,10.9,2026-05-05,2026-10-29,

@@ -1,0 +1,9 @@
+category_id,category_en,category_pt,evidence,example_query_en,example_query_pt
+C1,Dataset discovery and access,Descoberta e acesso a dados,dominant,"Which datasets are available for analysis? Show the catalogue.","Quais conjuntos de dados estao disponiveis para analise? Mostre o catalogo."
+C2,Applied epidemiological analysis and surveillance,Analise epidemiologica aplicada e vigilancia,dominant,"How did dengue behave in Rio de Janeiro and Sao Paulo during the 2024 epidemic?","Como a dengue se comportou no Rio de Janeiro e em Sao Paulo na epidemia de 2024?"
+C3,Epidemiological modelling and forecasting,Modelagem e previsao epidemiologica,secondary,"Convert the annual parameters to weekly and rerun the model.","Transforme os parametros anuais em semanais e rode o modelo novamente."
+C4,Reporting and communication outputs,Relatorios e produtos de comunicacao,dominant,"Generate figures to illustrate slides 1 and 2.","Gere figuras para ilustrar os slides 1 e 2."
+C5,Manuscript and research-writing support,Apoio a redacao cientifica,secondary,"Rewrite this section and shorten the abstract.","Reescreva esta secao e encurte o resumo."
+C6,Reproducibility code and version control,Reprodutibilidade codigo e versionamento,secondary,"Add these extraction instructions to the README and rerun the pipeline.","Adicione estas instrucoes de extracao no README e rode o pipeline de novo."
+C7,Meta questions about the system,Perguntas sobre o proprio sistema,secondary,"Which language model do you use? What is your data flow?","Qual modelo de linguagem voce usa? Qual e o seu fluxo de dados?"
+C8,Out-of-scope or personal medical queries,Consultas fora de escopo ou medicas individuais,marginal,"Could a given clinical finding be explained by a hormonal mechanism?","Um achado clinico especifico poderia ser explicado por um mecanismo hormonal?"

@@ -1,0 +1,48 @@
+digraph G {
+  graph [rankdir=TB, ratio=1, size="9,9!", fontname="Helvetica", nodesep=0.30, ranksep=0.40, bgcolor="white"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, color="#31415e", fillcolor="#eaf0f8", penwidth=1.1];
+  edge [color="#7c8aa5", arrowsize=0.7, penwidth=1.0];
+
+  subgraph cluster_acc {
+    label="Accountability layer"; fontsize=13; fontcolor="#a33a2c"; style="rounded,dashed"; color="#c98b82"; bgcolor="#fdf3f1";
+    A1 [label="Session log\n(turn-by-turn record)"];
+    A2 [label="Provenance record\n(sources, versions, code)"];
+    A3 [label="Reproducible artifacts\n(reports, plots, datasets)"];
+  }
+
+  subgraph cluster_orc {
+    label="Orchestration layer"; fontsize=13; fontcolor="#1f5c8b"; style="rounded,dashed"; color="#8db4d1"; bgcolor="#f0f7fc";
+    O1 [label="Planner\n(LLM)"];
+    O2 [label="Tool dispatcher\n(typed capabilities)"];
+    O3 [label="Reflection and repair"];
+  }
+
+  subgraph cluster_cap {
+    label="Capability layer"; fontsize=13; fontcolor="#24603f"; style="rounded,dashed"; color="#8fbfa5"; bgcolor="#f1f9f4";
+    C1 [label="Tool registry\n(typed contracts)"];
+    C2 [label="Analytical operations\n(epi, stats, spatial)"];
+    C3 [label="Communication builders\n(reports, dashboards)"];
+  }
+
+  subgraph cluster_sub {
+    label="Substrate layer"; fontsize=13; fontcolor="#5b4a7a"; style="rounded,dashed"; color="#a99bc4"; bgcolor="#f6f2fb";
+    S1 [label="Data resources\n(SINAN, SIM, SIH, WHO,\nMosqlimate, climate)"];
+    S2 [label="Harmonization services\n(schema, encoding, geometry)"];
+    S3 [label="Domain knowledge base\n(methods, documentation)"];
+  }
+
+  S1 -> S2;
+  S3 -> C1;
+  S2 -> C1;
+  C1 -> C2;
+  C2 -> C3;
+  O1 -> O2 [label=" plan"];
+  O2 -> C1 [label=" invoke"];
+  C2 -> O3 [label=" result"];
+  O3 -> O1 [label=" revise", style=dashed];
+  O2 -> A1 [style=dotted, color="#a33a2c"];
+  C2 -> A2 [style=dotted, color="#a33a2c"];
+  C3 -> A3 [style=dotted, color="#a33a2c"];
+  {rank=same; O1; O2; O3;}
+  {rank=same; A1; A2; A3;}
+}

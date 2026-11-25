@@ -1,0 +1,6 @@
+scope,n_prompts,I,K,A,M,V,S,X,mean_gei,pct_multi
+External - government,45,17.8,28.9,37.8,13.3,44.4,28.9,2.2,1.42,37.8
+Internal (core team),43,32.6,18.6,23.3,18.6,30.2,41.9,2.3,1.23,27.9
+External - academic,41,14.6,29.3,12.2,17.1,41.5,43.9,2.4,1.15,31.7
+External - walk-in,38,52.6,7.9,34.2,2.6,15.8,31.6,7.9,1.13,28.9
+External - international,19,52.6,26.3,21.1,15.8,15.8,26.3,0.0,1.32,31.6

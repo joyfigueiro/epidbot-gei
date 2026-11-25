@@ -1,0 +1,6 @@
+scope,n_prompts,mean_gei_caps
+External - academic,41,1.15
+External - government,45,1.42
+External - international,19,1.32
+External - walk-in,38,1.13
+Internal (core team),43,1.23
